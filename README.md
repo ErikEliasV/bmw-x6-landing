@@ -118,7 +118,7 @@
   ├── tsconfig.json
   ├── next.config.ts
   └── tailwind / postcss / eslint configs
-
+```
   ---
   Preview Completa
 
