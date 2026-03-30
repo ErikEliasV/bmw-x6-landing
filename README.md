@@ -4,6 +4,7 @@
   com animações de scroll, vídeo interativo e design responsivo.
 
   ![Preview do projeto](./screenshots/hero-preview.png)
+  🔗 **[Ver projeto ao vivo](https://erikeliasv.github.io/bmw-x6-landing/)**
 
   ---
 
