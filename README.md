@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BMW X6 M60i xDrive — Landing Page
 
-## Getting Started
+  Uma landing page premium desenvolvida com Next.js 16, TypeScript e Tailwind CSS 4, apresentando o BMW X6 M60i xDrive
+  com animações de scroll, vídeo interativo e design responsivo.
 
-First, run the development server:
+  ![Preview do projeto](./screenshots/hero-preview.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  ---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  ## Visão Geral
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  Landing page single-scroll que simula a experiência de um site oficial BMW, com foco em performance visual, animações
+  fluidas e apresentação detalhada do veículo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  ### Screenshots
 
-## Learn More
+  | Seção | Preview |
+  |-------|---------|
+  | Hero com vídeo scroll-scrub | ![Hero](./screenshots/hero.png) |
+  | Estatísticas animadas | ![Stats](./screenshots/stats.png) |
+  | Design exterior | ![Design](./screenshots/design.png) |
+  | Grid de funcionalidades | ![Features](./screenshots/features.png) |
+  | Showcase interior | ![Interior](./screenshots/interior.png) |
+  | Seletor de cores | ![Colors](./screenshots/color-selector.png) |
+  | FAQ accordion | ![FAQ](./screenshots/faq.png) |
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  ---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  ## Funcionalidades
 
-## Deploy on Vercel
+  - **Hero com vídeo interativo** — o vídeo avança conforme o scroll do utilizador, com barra de progresso e botões CTA
+  com fade-out
+  - **Contadores animados** — 530cv, 750Nm, 4.3s e V8 Bi-Turbo com animação progressiva ao entrar no viewport
+  - **Design exterior** — imagem com zoom no hover e descrição detalhada
+  - **Grid de funcionalidades** — Pack Desportivo M Pro, jantes de 22" e escape M Sport em layout com card destaque
+  - **Showcase interior** — 4 cards com revelação de texto no hover (volante M, curved display, bancos M, Bowers &
+  Wilkins)
+  - **Seção de tecnologia** — Driving Assistant, Parking Assistant, Digital Key, Head-Up Display, xOffroad
+  - **Seletor de cores** — 5 cores com transição fade na preview (Le Mans Blue, Verde Isle of Man, Cinza Frozen Pure,
+  Preto Carbon, Cinza Brooklyn)
+  - **FAQ accordion** — perguntas frequentes com expansão suave
+  - **CTA** — links para o configurador BMW e formulário de proposta
+  - **Navbar responsiva** — menu hamburger mobile, smooth scroll entre seções e efeito sticky
+  - **Tema dark/light** — suporte via CSS custom properties e `prefers-color-scheme`
+  - **Scroll reveal** — animações fade-up com Intersection Observer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  ---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  ## Tecnologias
+
+  | Tecnologia | Versão |
+  |------------|--------|
+  | Next.js | 16.2.1 |
+  | React | 19.2.4 |
+  | TypeScript | 5+ |
+  | Tailwind CSS | 4 |
+  | ESLint | 9+ |
+  | React Compiler (Babel) | 1.0.0 |
+
+  ---
+
+  ## Como Executar
+
+  ```bash
+  # Clonar o repositório
+  git clone https://github.com/ErikEliasV/bmw-x6-landing.git
+
+  # Entrar na pasta do projeto
+  cd bmw-x6-landing
+
+  # Instalar dependências
+  npm install
+
+  # Rodar em modo de desenvolvimento
+  npm run dev
+
+  Acesse http://localhost:3000 no navegador.
+
+  Outros comandos
+
+  # Build de produção
+  npm run build
+
+  # Iniciar servidor de produção
+  npm start
+
+  # Executar lint
+  npm run lint
+
+  ---
+  Estrutura do Projeto
+
+  bmw-x6-landing/
+  ├── public/
+  │   ├── logo.png
+  │   └── video-hero.mp4
+  ├── src/
+  │   ├── app/
+  │   │   ├── globals.css
+  │   │   ├── layout.tsx
+  │   │   └── page.tsx
+  │   └── components/
+  │       ├── BmwLogo.tsx
+  │       ├── CTASection.tsx
+  │       ├── ColorSelector.tsx
+  │       ├── DesignSection.tsx
+  │       ├── FAQ.tsx
+  │       ├── FeaturesGrid.tsx
+  │       ├── Footer.tsx
+  │       ├── HeroVideo.tsx
+  │       ├── InteriorShowcase.tsx
+  │       ├── Navbar.tsx
+  │       ├── ScrollReveal.tsx
+  │       ├── StatsStrip.tsx
+  │       └── TechSection.tsx
+  ├── package.json
+  ├── tsconfig.json
+  ├── next.config.ts
+  └── tailwind / postcss / eslint configs
+
+  ---
+  Preview Completa
+
+  ./screenshots/full-page.png
+
+  ---
+  Autor
+
+  Desenvolvido por Erik Elias
+
+  ---
+  Licença
+
+  Este projeto é apenas para fins educacionais e de portfólio. BMW, o logotipo BMW e X6 são marcas registradas da BMW
+  AG. As imagens do veículo são propriedade da BMW AG e são carregadas diretamente dos CDNs oficiais.
+
+  ---
