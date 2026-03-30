@@ -1,12 +1,17 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/bmw-x6-landing" : "";
+
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath,
   reactCompiler: true,
   images: {
-    remotePatterns: [
-      { hostname: "bmw.scene7.com" },
-      { hostname: "prod.cosy.bmw.cloud" },
-    ],
+    unoptimized: true,
+  },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 

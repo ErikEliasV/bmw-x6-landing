@@ -122,7 +122,7 @@ export default function HeroVideo() {
         <div className="absolute inset-0 z-0">
           <video
             ref={videoRef}
-            src="/video-hero.mp4"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/video-hero.mp4`}
             muted
             playsInline
             preload="auto"
