@@ -120,17 +120,17 @@
   └── tailwind / postcss / eslint configs
 ```
   ---
-  Preview Completa
+  ## Preview Completa
 
-  ./screenshots/full-page.png
+  ![Full](./screenshots/full-page.png).
 
   ---
   Autor
 
-  Desenvolvido por Erik Elias
+  ## Desenvolvido por Erik Elias
 
   ---
-  Licença
+  ## Licença
 
   Este projeto é apenas para fins educacionais e de portfólio. BMW, o logotipo BMW e X6 são marcas registradas da BMW
   AG. As imagens do veículo são propriedade da BMW AG e são carregadas diretamente dos CDNs oficiais.
