@@ -126,9 +126,12 @@
   ![Full](./screenshots/full-page.png).
 
   ---
-  Autor
+  ## Autor
 
-  ## Desenvolvido por Erik Elias
+  Desenvolvido por **Erik Elias**
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erik-elias-varela-de-sousa-731363310/)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://erikeliasv.github.io/portfolio/en)
 
   ---
   ## Licença
